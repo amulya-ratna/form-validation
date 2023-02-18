@@ -200,12 +200,14 @@ document.getElementById("registrationForm").onsubmit=function(e){
   
   firstNameValidation();
   lastNameValidation();
+  midNameValidation();
   emailAddressValidation();
   mobileNumberValidation();
   passwordValidation();
   confirmPasswordValidation();
 
   if(firstNameValidation()==true && 
+    midNameValidation()==true &&
     lastNameValidation()==true && 
     emailAddressValidation() == true && 
     mobileNumberValidation()==true && 
